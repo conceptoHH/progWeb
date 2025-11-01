@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 13</title>
+</head>
+<style>
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        gap: 10px
+    }
+
+    .campo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        height: 26px;
+        width: auto;
+    }
+
+
+</style>
+<body>
+    <form method="GET" action="practica20.php">
+        <div class="campo">
+            <label for="">Dame tu nombre: </label>
+            <input type="text" name="nombre">
+        </div>
+        <div class="campo">
+            <label for="">Ingresa tu email: </label>
+            <input type="text" name="email">
+        </div>
+        <div class="campo">
+            <label for="">Selecciona tu curso: </label>
+            <select name="curso" id="">
+                <option disabled selected>Seleccione un curso</option>
+                <option value="Python">Python</option>
+                <option value="React">React: cero a experto</option>
+                <option value="NodeJs">NodeJs</option>
+                <option value="POO">POO</option>
+            </select>
+        </div>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
