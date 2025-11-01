@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 13</title>
+</head>
+<style>
+    form {
+        padding-top: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: right;
+        gap: 10px;
+        margin: 2em;
+    }
+
+    .campo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        height: 26px;
+        width: auto;
+    }
+
+    table {
+        height: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+</style>
+<body>
+    <form method="POST" action="practica14.php">
+        <div class="campo">
+            <label for="">Dame tu nombre: </label>
+            <input type="text" name="nombre">
+        </div>
+        <div class="campo">
+            <label for="">Ingresa tu email: </label>
+            <input type="text" name="email">
+        </div>
+        <div class="campo">
+            <label for="">Selecciona tu conferencia: </label>
+            <select name="conferencia" id="">
+                <option disabled selected>Seleccione una conferencia</option>
+                <option value="Python">Inversiones a futuro</option>
+                <option value="React">Libertad financiera</option>
+                <option value="NodeJs">Educacion Fitness</option>
+                <option value="POO">EL espacio exterior y vida extraterrestre</option>
+                <option value="POO">Calientamiento global</option>
+            </select>
+        </div>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <table border="1">
+        <tr>
+            <td>Curso</td>
+            <td>Cupo</td>
+            <td>Restantes</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>

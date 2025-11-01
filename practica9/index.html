@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Delius+Swash+Caps&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Practica 9</title>
+</head>
+<body class="principal">
+
+    <form class="contenido">
+
+        <div class="campo">
+            <label for="">Ingresa el nombre</label>
+            <input id="personal" type="text">
+        </div>
+
+        <div class="campo">
+            <label for="">Ingresa los años trabajados</label>
+            <input id="años" type="text">
+        </div>
+
+        <div class="campo">
+            <label for="">Ingresa el sueldo</label>
+            <input id="sueldo" type="text">
+        </div>
+
+        <div class="campo">
+            <label for="">Ingresa el rfc</label>
+            <input id="rfc" type="text">
+        </div>
+
+        <div class="boton">
+            <input class="boton-inp" type="button" value="Agregar Personal" onclick="agregarpersonal()">
+            <input class="boton-inp" type="button" value="Agregar renglones" onclick="agregarrenglones()">
+        </div>
+    </form>
+
+    <table id="tabla" border="1px">
+        <tr class="titulos">
+            <td>N°</td>
+            <td>Nombre</td>
+            <td>Bono</td>
+            <td>Sueldo Final</td>
+            <td>RFC</td>
+            <td>Imagen</td>
+        </tr>
+    </table>
+
+</body>
+<script src="script.js"></script>
+</html>

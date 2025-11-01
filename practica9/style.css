@@ -1,0 +1,125 @@
+.barriecito-regular {
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.delius-swash-caps-regular {
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.stix-two-text {
+    font-family: "STIX Two Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex: 1 0 10px;
+
+}
+
+.boton-inp {
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(167, 178, 189);
+    margin-top: 10px;
+    padding: 10px;
+}
+.boton-inp:hover {
+    background-color: antiquewhite;
+    transition: 0.5s;
+}
+
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(203, 230, 231);
+}
+
+.contenido {
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+    background-color: rgb(250,250,250);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    text-align:start;
+    border-radius: 10px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    gap: 10px;
+}
+
+#tabla {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+}
+
+.titulos {
+    background-color: rgba(240, 240, 240, 0.721);
+    table-layout: auto;
+    text-align: center;
+    font-weight: 700;
+}
+td {
+    font-weight: 400;
+    width: 1000px;
+}
+
+tr {
+    height: 50px;
+}
+@media only screen and (max-width: 1020px) { /*Para dispositivos tipo laps pequeñas hasta tabletas*/
+    .principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 450px) { /*Para dispositivos tipo celulares*/
+    .principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenido {
+        -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+        background-color: rgb(250,250,250);
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        font-size: small;
+        border-radius: 10px;
+        width: 200px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+

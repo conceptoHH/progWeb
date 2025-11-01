@@ -1,0 +1,16 @@
+body {
+    margin-top: 200px;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    font-family: sans-serif;
+}
+
+p {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}

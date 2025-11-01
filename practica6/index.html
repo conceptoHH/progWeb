@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="contenedor">
+        <form class="formulario">
+            <div class="formulario-envia">
+
+                <h3>Envia</h3>
+
+                <div class="campo">
+                    <label class="campo_label" for="nombre">Nombre:</label>
+                    <input class="campo_field"  type="text" placeholder="Tu nombre" id="nombre">
+                </div>
+
+                <div class="campo">
+                    <label class="campo_label" for="nombre">Direccion de envio:</label>
+                    <input class="campo_field"  type="text" placeholder="Direccion de envio" id="nombre">
+                </div>
+
+                <div class="campo">
+                    <label class="campo_label" for="email">Fecha de envio:</label>
+                    <input class="campo_field" type="date">
+                </div>
+
+                <div class="campo">
+                    <label class="campo_label" for="email">Email:</label>
+                    <input class="campo_field" placeholder="email" type="email">
+                </div>
+
+                <div class="campo">
+                    <label class="campo_label" for="email">Numero celular:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                </div>
+
+                <div class="campo">
+                    <label>Tipo de envio:</label>
+                    <label>
+                        <input class="input-text" type="radio" name="genero" value="Express"> Express
+                    </label>
+                    <label>
+                        <input class="input-text" type="radio" name="genero" value="Normal"> Normal
+                    </label>
+                </div>
+             </div>
+            
+            <div class="formulario-recibe">
+                <h3>Recibe</h3>
+
+                <div class="campo">
+                    <label class="campo_label" for="nombre">Nombre:</label>
+                    <input class="campo_field"  type="text" placeholder="Tu nombre" id="nombre">
+                </div>
+    
+                <div class="campo">
+                    <label class="campo_label" for="nombre">Direccion de destinatario:</label>
+                    <input class="campo_field"  type="text" placeholder="Direccion de destino" id="nombre">
+                </div>
+    
+                <div class="campo">
+                    <label class="campo_label" for="email">Email:</label>
+                    <input class="campo_field" placeholder="email" type="email">
+                </div>
+    
+                <div class="campo">
+                    <label class="campo_label" for="email">Numero celular:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                </div>
+    
+                <!-- <div class="campo">
+                   <label>Estado Civil: </label> 
+                   
+                    <select name="edocivil" id="principal">
+                        <option value="" selected disabled>Seleccione una opción</option>
+                        <option value="casado" >Casado/a</option>
+                        <option value="soltero/a" >Soltero/a</option>
+                        <option value="viudo" >Viudo/a</option>
+    
+                    </select>
+                </div> -->
+            </div>
+            <div class="campo boton">
+                <input type="submit" value="Enviar" class="boton">
+            </div>               
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Delius+Swash+Caps&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="estilos.css">
+      <title>Mi formulario </title>
+</head>
+<body>
+      <main class="principal">
+            <h2>Contactame:</h2> 
+            <p>Yahir Molina</p>
+      
+            <form method="GET">
+                  <fieldset class="contenido">
+                        <h4>Datos Generales</h4>
+                        <div class="campo">
+                              <label for="">Dame tu nombre: </label>
+                              <input class="inp" type=text name=nombre>
+                        </div>
+                        <div class="campo">
+                              <label for="">Dame tus apellidos: </label>
+                              <input type=text name=apellidos>                  
+                        </div>
+                        <div class="campo">
+                              <label for="">Dame tu correo: </label>
+                              <input class="inp" type=email name=correo>             
+                        </div>
+      
+                        <h4>Genero:</h4>
+                        <div>
+                              <input type=radio name=genero value=masculino>Masculino
+                              <input type=radio name=genero value=femenino>Femenino
+                        </div>
+      
+                        <h4>Hobbies</h4>
+                        <div>
+                              <input type=checkbox name=hobbie1>nadar<br>
+                              <input type=checkbox name=hobbie2>correr<br>
+                              <input type=checkbox name=hobbie3>musica<br>
+                              <input type=checkbox name=hobbie4 checked>todas las anteriores<br>
+                        </div>
+      
+                        <h4>Estado Civil</h4>
+                        <div>
+                              <select name=edocivil>
+                                    <option disabled selected>-- Seleccione una opción</option>
+                                    <option value=casado>Casado</option>
+                                    <option value=soltero>Soltero</option>
+                                    <option value=divorciado>Divorciado</option>
+                                    <option value=viuda>Viudo</option>
+                                    <option value=union>Union Libre</option>
+                              </select>
+                        </div>
+      
+                        <div class="boton">
+                              <a href="#"><img src="img/btnAzul.jpg" width="150" height="auto"></a>
+                        </div>
+                  </fieldset>
+            </form>
+      </main>
+</body>
+
+</html>

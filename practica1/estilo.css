@@ -1,0 +1,32 @@
+html {
+    background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 44%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+    color: aliceblue;
+
+}
+h7 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    color: slateblue;
+    opacity: 60%;
+}
+
+.logos {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+    background-color: #DBBEA1;
+    
+}
+
+.tabla {
+    margin: 0 0 20px 0;
+}

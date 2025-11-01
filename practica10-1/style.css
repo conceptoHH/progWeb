@@ -1,0 +1,19 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 1000px;
+}
+
+a {
+    text-decoration: none;
+    background-color: wheat;
+    padding: 5px;
+    border-radius: 5px;
+    color: black; 
+}
+
+.navegacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}

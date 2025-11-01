@@ -1,0 +1,38 @@
+
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3 {
+    text-align: center;
+}
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:500px;
+}
+
+.formulario {
+    background-color: white;
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.campo_label {
+    flex: 0 0 90px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.campo_field {
+    flex: 0 0 400px;
+    border: 2px solid gray;
+}
